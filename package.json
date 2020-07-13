@@ -1,0 +1,21 @@
+{
+    "name": "hacker_next",
+    "version": "1.0.0",
+    "description": "A Hacker News clone made with Next.js",
+    "main": "server.js",
+    "scripts": {
+        "dev": "node server.js",
+        "start": "NODE_ENV=production node server.js",
+        "build": "next build",
+        "heroku-postbuild": "next build"
+    },
+    "author": "Daniel Persson",
+    "license": "ISC",
+    "dependencies": {
+        "isomorphic-fetch": "^2.2.1",
+        "next": "^9.4.4",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "sw-precache-webpack-plugin": "^1.0.0"
+    }
+}
